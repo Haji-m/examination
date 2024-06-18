@@ -1,0 +1,41 @@
+body {
+    width: auto;
+    color: #8B7969;
+    font-family: "Inika", serif;
+}
+
+.background {
+    height: 980px;
+    width: 1510px;
+    position: relative;
+    top: 0;
+    font-size: 280px;
+}
+
+.background p {
+    color: rgba(137, 119, 102, 0.05);
+}
+
+.front-wrapper {
+    height: 40px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+}
+
+.front__text {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.front__button {
+    height: 46px;
+    width: 140px;
+    border: none;
+    color: #FFFFFF;
+    background: #82756A;
+    margin: 10px 35%;
+}

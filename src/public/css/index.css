@@ -1,0 +1,46 @@
+.header-button {
+    display: block;
+    height: 30px;
+    width: 100px;
+    color: #D9C6B5;
+    border: 1px solid #D9C6B5;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 35px;
+    background: #F1ECE7;
+}
+
+.content-wrapping {
+    display: flex;
+    justify-content: center;
+    background: #F1ECE7;
+}
+
+main {
+    height: 600px;
+}
+
+.content {
+    background: #FFFFFF;
+    padding: 50px;
+}
+
+.content__item {
+    margin-bottom: 50px;
+}
+
+.form-custom {
+    height: 55px;
+    width: 450px;
+    border: none;
+    padding-left: 20px;
+    background: #F4F4F4;
+}
+
+::placeholder {
+    color: #BEB1A6;
+}

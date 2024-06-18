@@ -1,0 +1,113 @@
+body {
+    width: auto;
+    color: #8B7969;
+    font-family: "Inika", serif;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #E0DFDE;
+    background: #FFFFFF;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 35px;
+}
+
+.contact,
+.contact__item .submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__item input,
+.type-select,
+.contact__item li textarea,
+.contact__item-type .type {
+    color: #BEB1A6;
+    border: none;
+    background: #F4F4F4;
+}
+
+.warning {
+    color: #FF9494;
+    padding: 0 5px;
+}
+
+.contact__item li {
+    display: flex;
+    padding: 10px;
+}
+
+.contact__item-gender--check {
+    accent-color: #8B7969;
+}
+
+.flame-custom--row1,
+.flame-custom--row2,
+.flame-custom--row3 {
+    height: 38px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+.contact__item-gender #male {
+    margin-left: 10px;
+}
+
+.contact__item-gender #female,
+.contact__item-gender #another {
+    margin-left: 100px;
+}
+
+.flame-custom--row1 {
+    width: 600px;
+}
+
+.flame-custom--row2 {
+    width: 280px;
+    margin-right: 20px;
+}
+
+.flame-custom--low3 {
+    width: 200px;
+    margin-right: 10px;
+}
+
+.contact__item-content textarea {
+    height: 130px;
+}
+
+.contact__item label {
+    display: inline-block;
+    width: 200px;
+}
+
+#tel-number1,
+#tel-number2,
+#tel-number3 {
+    width: auto 0;
+    text-align: center;
+}
+
+.contact__item-type .type {
+    width: 330px;
+}
+
+.submit-button {
+    border: none;
+    color: #FFFFFF;
+    background: #82756A;
+    padding: 10px 40px;
+    margin: 10px 50%;
+}

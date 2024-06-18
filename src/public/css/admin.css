@@ -1,0 +1,80 @@
+body {
+    width: auto;
+    color: #8B7969;
+    font-family: "Inika", serif;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #E0DFDE;
+    background: #FFFFFF;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.page-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 35px;
+}
+
+wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-nav #email {
+    width: 350px;
+}
+
+.contact-item {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.contact-item,
+.contact-item--custom {
+    border: none;
+    background: #E1DBD699;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.action-export__button {
+    height: 40px;
+    width: 150px;
+    color: #8B7969;
+    background: #E1DBD699;
+    border: none;
+    padding-left: 10px;
+}
+
+.action-pagenate--pagenation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-pagenate--pagenation li {
+    padding-right: 10px;
+    color: #8B7969;
+    background: #E1DBD699;
+    list-style: none;
+    border: none;
+    padding: 10px;
+}

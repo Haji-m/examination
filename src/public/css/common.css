@@ -1,0 +1,20 @@
+body {
+    width: auto;
+    color: #8B7969;
+    font-family: "Inika", serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #E0DFDE;
+    background: #FFFFFF;
+}
+
+.title {
+    font-size: 40px;
+    padding-right: 30%;
+}
